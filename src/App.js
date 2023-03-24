@@ -1,12 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import LoadCountries from './components2/LoadCountries/LoadCountries';
+import Footer from './components2/Footer/Footer';
+import Header1 from './components2/Header1/Header1';
 
 
 function App() {
   return (
     <div className="App">
+      <Header1></Header1>
      <LoadCountries></LoadCountries>
+     <Footer></Footer>
+
     </div>
   );
 }
